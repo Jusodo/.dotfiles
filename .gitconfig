@@ -1,0 +1,15 @@
+[user]
+    name = Julian Doering
+    email = julian.doering@nkg.coffee
+[alias]
+    gf = fetch --all --prine
+    f = fetch 
+    p = pull --rebase
+    l = log --online --graph --date-order --decorate
+    la = log --oneline --graph --date-order --decorate --all 
+    s = status
+    c = checkout
+    cb = checkout -b
+    lb = log --date-order --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    lba = log --date-order --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit --all
+    lo = log --oneline --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset'
