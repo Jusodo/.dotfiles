@@ -12,3 +12,7 @@ ln -sf ${BASEDIR}/starship.toml ~/.config/.starship.toml
 
 # git
 ln -sf ${BASEDIR}/.gitconfig ~/.gitconfig
+
+# nvim
+mkdir -p ~/.config/nvim
+ln -sf ${BASEDIR}/init.lua ~/.config/nvim/init.lua
