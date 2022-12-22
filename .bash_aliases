@@ -12,6 +12,10 @@ alias profile='vim ~/.bash_profile'
 alias aliases='vim ~/.bash_aliases'
 alias c='code'
 
+# neovim
+alias vi='nvim'
+alias vim='nvim'
+
 # kubernetes
 alias k='kubectl'
 alias kconfig='kubectl config get-contexts'
@@ -48,7 +52,7 @@ alias mynkg='cd ~/workspace/mynkg'
 alias datahub='cd ~/workspace/maynkg/datahub'
 alias datahub-ui='cd ~/workspace/maynkg/datahub-ui'
 alias geohub='cd ~/workspace/maynkg/geohub'
-alias mynkg-deployment='cd ~/workspace/maynkg/deployment'
+alias mynkgdeployment='cd ~/workspace/maynkg/deployment'
 
 # edwh 
 alias edwh='cd ~/workspace/edwh'
