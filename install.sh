@@ -15,4 +15,10 @@ ln -sf ${BASEDIR}/.gitconfig ~/.gitconfig
 
 # nvim
 mkdir -p ~/.config/nvim
-ln -sf ${BASEDIR}/init.lua ~/.config/nvim/init.lua
+mkdir -p ~/.config/nvim/lua/julian
+ln -sf ${BASEDIR}/nvim/init.lua ~/.config/nvim/init.lua
+ln -sf ${BASEDIR}/nvim/lua/julian/* ~/.config/nvim/lua/julian/
+
+# tmux
+ln -sf ${BASEDIR}/tmux.conf ~/.tmux.conf
+
