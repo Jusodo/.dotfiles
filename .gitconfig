@@ -1,6 +1,8 @@
 [user]
     name = Julian Doering
     email = julian.doering@nkg.coffee
+[core]
+    editor = nvim
 [alias]
     gf = fetch --all --prine
     f = fetch 
