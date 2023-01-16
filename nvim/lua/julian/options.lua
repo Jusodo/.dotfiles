@@ -1,3 +1,13 @@
+-- set highlight groups to make the background transparent
+-- this is called from colors.lua, otherwise the config will be overwritten
+transparent_bg = function ()
+    vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
+    vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
+    --vim.api.nvim_set_hl(0, "Visual", { bg = "none" })
+    vim.api.nvim_set_hl(0, "EndOfBuffer", { bg = "none" })
+    return
+end
+
 -- :help options
 vim.opt.clipboard = "unnamedplus"               -- allows neovim to access the system clipboard
 vim.opt.cmdheight = 2                           -- more space in the neovim command line for displaying messages
@@ -22,9 +32,6 @@ vim.opt.swapfile = false                        -- creates a swapfile
 vim.opt.backup = false                          -- creates a backup file
 
 vim.opt.termguicolors = true                    -- set term gui colors (most terminals support this)
--- make the background transparent
--- vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
--- vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
 
 vim.opt.timeoutlen = 1000                       -- time to wait for a mapped sequence to complete (in milliseconds)
 vim.opt.undofile = true                         -- enable persistent undo
