@@ -49,10 +49,10 @@ alias reporting='cd ~/workspace/devops/reporting_utilities'
 
 # mynkg
 alias mynkg='cd ~/workspace/mynkg'
-alias datahub='cd ~/workspace/maynkg/datahub'
-alias datahub-ui='cd ~/workspace/maynkg/datahub-ui'
-alias geohub='cd ~/workspace/maynkg/geohub'
-alias mynkgdeployment='cd ~/workspace/maynkg/deployment'
+alias datahub='cd ~/workspace/mynkg/datahub'
+alias datahub-ui='cd ~/workspace/mynkg/datahub-ui'
+alias geohub='cd ~/workspace/mynkg/geohub'
+alias mynkgdeployment='cd ~/workspace/mynkg/deployment'
 
 # edwh 
 alias edwh='cd ~/workspace/edwh'
