@@ -1,7 +1,6 @@
-vim.opt.termguicolors = true
-
-local ok, bufferline = pcall(require, "bufferline")
-if not ok then
+local loaded, bufferline = pcall(require, "bufferline")
+if not loaded then
+    print("bufferline not loaded")
 	return
 end
 
