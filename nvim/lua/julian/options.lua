@@ -1,13 +1,3 @@
--- set highlight groups to make the background transparent
--- this is called from colors.lua, otherwise the config will be overwritten
-transparent_bg = function ()
-    vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
-    vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
-    --vim.api.nvim_set_hl(0, "Visual", { bg = "none" })
-    vim.api.nvim_set_hl(0, "EndOfBuffer", { bg = "none" })
-    return
-end
-
 -- :help options
 vim.opt.clipboard = "unnamedplus"               -- allows neovim to access the system clipboard
 vim.opt.cmdheight = 2                           -- more space in the neovim command line for displaying messages

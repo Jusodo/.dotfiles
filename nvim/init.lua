@@ -1,8 +1,10 @@
 require('julian.options')
 require('julian.keymaps')
 
+-- load plugins before configuring them
 require("julian.packer")
 
+-- set the colorscheme and set color options
 require('julian.colors')
 
 -- plugin configurations
