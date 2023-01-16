@@ -22,6 +22,13 @@
 - LSP with [LSP-Zero](https://github.com/VonHeikemen/lsp-zero.nvim)
 - Package management for LSP, linters and formatting with [Mason](https://github.com/williamboman/mason.nvim)
 
+### Themes
+
+- [Catppuccin](https://github.com/catppuccin/nvim)
+- [OneDark](https://github.com/navarasu/onedark.nvim)
+- [Rose-Pine](https://github.com/rose-pine/neovim)
+- [One Half](https://github.com/sonph/onehalf)
+
 ### Requirements
 
 - [Nerd Fonts](https://www.nerdfonts.com/font-downloads)

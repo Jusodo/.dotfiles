@@ -27,8 +27,6 @@ return require('packer').startup(function(use)
         'rose-pine/neovim',
         as = 'rose-pine',
     })
-    use 'martinsione/darkplus.nvim'
-    use 'doums/darcula'
     use 'navarasu/onedark.nvim'
     use { 'catppuccin/nvim', as = 'catppuccin' }
     use { 'sonph/onehalf', rtp = 'vim', }
