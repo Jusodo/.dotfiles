@@ -4,6 +4,10 @@
 
 * Install [Tmux Plugin Manage](https://github.com/tmux-plugins/tpm)
 
+### Features
+
+- Theme with [onedark](https://github.com/odedlaz/tmux-onedark-theme)
+
 ## Neovim
 
 ### Features
