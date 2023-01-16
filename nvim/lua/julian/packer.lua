@@ -29,6 +29,9 @@ return require('packer').startup(function(use)
     })
     use 'martinsione/darkplus.nvim'
     use 'doums/darcula'
+    use 'navarasu/onedark.nvim'
+    use { 'catppuccin/nvim', as = 'catppuccin' }
+    use { 'sonph/onehalf', rtp = 'vim', }
 
     -- treesitter
     use('nvim-treesitter/nvim-treesitter', {run = ':TSUpdate'})
@@ -91,6 +94,8 @@ return require('packer').startup(function(use)
             }
         end
     }
+
+    use { 'numToStr/Comment.nvim' }
 
 
     -- Automatically set up your configuration after cloning packer.nvim
