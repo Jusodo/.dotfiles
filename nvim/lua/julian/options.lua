@@ -22,6 +22,9 @@ vim.opt.swapfile = false                        -- creates a swapfile
 vim.opt.backup = false                          -- creates a backup file
 
 vim.opt.termguicolors = true                    -- set term gui colors (most terminals support this)
+-- make the background transparent
+-- vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
+-- vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
 
 vim.opt.timeoutlen = 1000                       -- time to wait for a mapped sequence to complete (in milliseconds)
 vim.opt.undofile = true                         -- enable persistent undo
