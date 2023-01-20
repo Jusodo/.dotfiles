@@ -3,6 +3,7 @@
 ## tmux
 
 * Install [Tmux Plugin Manage](https://github.com/tmux-plugins/tpm)
+* Theme [Catppuccin](https://github.com/catppuccin/tmux)
 
 ### Features
 
