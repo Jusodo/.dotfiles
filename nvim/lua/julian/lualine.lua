@@ -4,7 +4,8 @@ if not lualine_loaded then
     return
 end
 
-local custom_lualine = require("lualine.themes.onedark")
+--local custom_lualine = require("lualine.themes.onedark")
+local custom_lualine = require("lualine.themes.onelight")
 -- make the background transparent
 custom_lualine.normal.c.bg = 'None'
 

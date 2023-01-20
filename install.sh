@@ -20,5 +20,5 @@ ln -sf ${BASEDIR}/nvim/init.lua ~/.config/nvim/init.lua
 ln -sf ${BASEDIR}/nvim/lua/julian/* ~/.config/nvim/lua/julian/
 
 # tmux
-ln -sf ${BASEDIR}/tmux.conf ~/.tmux.conf
+ln -sf ${BASEDIR}/.tmux.conf ~/.tmux.conf
 

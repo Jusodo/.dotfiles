@@ -1,4 +1,5 @@
-local colorscheme = "catppuccin"
+-- flavors: latte, frappe, macchiato, mocha 
+local colorscheme = "catppuccin-latte"
 
 local status_ok, _ = pcall(vim.cmd, "colorscheme " .. colorscheme)
 if not status_ok then
@@ -7,7 +8,8 @@ if not status_ok then
 end
 
 -- set highlight groups to make the background transparent
-vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
-vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
---vim.api.nvim_set_hl(0, "Visual", { bg = "none" })
-vim.api.nvim_set_hl(0, "EndOfBuffer", { bg = "none" })
+-- vim.api.nvim_set_hl(0, "Normal", { bg = "none" })
+-- vim.api.nvim_set_hl(0, "NormalFloat", { bg = "none" })
+-- vim.api.nvim_set_hl(0, "Visual", { bg = "none" })
+-- vim.api.nvim_set_hl(0, "EndOfBuffer", { bg = "none" })
+
