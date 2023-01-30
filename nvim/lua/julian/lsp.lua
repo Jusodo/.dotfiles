@@ -7,5 +7,9 @@ if not loaded then
 end
 
 lsp.preset('recommended')
+lsp.nvim_workspace()
 
 lsp.setup()
+
+-- keybindings
+vim.api.nvim_set_keymap("n", "<leader>rn", "<cmd>lua vim.lsp.buf.rename()<CR>", { noremap = true })

@@ -1,7 +1,7 @@
-local loaded, comment = pcall(require, "comment")
+local loaded, comment = pcall(require, "Comment")
 if not loaded then
-    print("comment not loaded")
+    print("Comment not loaded")
     return
 end
 
-comment.setup{}
+comment.setup()

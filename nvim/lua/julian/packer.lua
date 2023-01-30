@@ -93,8 +93,12 @@ return require('packer').startup(function(use)
         end
     }
 
+    -- easier way to comment lines and blocks
+    -- uses the lsp do know how to do a comment
     use { 'numToStr/Comment.nvim' }
 
+    -- git integration for buffers
+    use { 'lewis6991/gitsigns.nvim', tag = 'release' }
 
     -- Automatically set up your configuration after cloning packer.nvim
     -- Put this at the end after all plugins
