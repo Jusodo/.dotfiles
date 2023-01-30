@@ -121,4 +121,11 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+# rust
+. "$HOME/.cargo/env"
+
+# path for go
+export PATH=$PATH:/usr/local/go/bin
+
+# this should stay at the end
 eval "$(starship init bash)"
