@@ -22,7 +22,7 @@ alias kconfig='kubectl config get-contexts'
 
 # bat as alternative to cat
 alias bat='batcat'
-alias cat='batcat'
+#alias cat='batcat'
 
 # switch between java versions
 alias jvm='sudo update-alternatives --config java'
